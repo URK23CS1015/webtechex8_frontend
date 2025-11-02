@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const baseURL = 'http://localhost:5000'; // Change this URL when deployed
+const baseURL = 'https://web-tech-ex8-backend.vercel.app'; // Change this URL when deployed
 
 function App() {
   const [donations, setDonations] = useState([]);
